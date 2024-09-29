@@ -1,6 +1,4 @@
 ```mermaid
----
-title: Node
----
 flowchart LR
-id
+id1{{This is the text in the box}}
+
