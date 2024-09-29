@@ -1,9 +1,9 @@
 ```mermaid
 flowchart TD
-A[[Start]]-->B[[Number = 4]]
+A[[Start]] --> B[[Number = 4]]
 B --> C[["Guess the number"]]
 C --> D[[**guess** = input]]
-D --> E [[ Guess == number?]]
-E -True-> F[["Correct"]]
+D --> E[[Guess == number?]]
+E --> |True| F[["Correct"]]
 F --> G([End])
-E -False-> H[["incorrect"]]
+E ----> |False| H[["incorrect"]]
