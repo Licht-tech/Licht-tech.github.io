@@ -1,3 +1,3 @@
 ```mermaid
-A---oB
-A---xB
+A oB
+A xB
